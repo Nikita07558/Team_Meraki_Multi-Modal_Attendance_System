@@ -25,6 +25,11 @@ to ensure accurate, real-time, and tamper-proof attendance — ideal for hybrid 
 - 🔄 Voice Authentication (integration pending)
 - 🗺️ Location Check(integration pending)
 
+  ##  Work in Progress
+
+- To save embeddings in database for scalability.
+- Exploring liveness detection or blink detection for anti-spoofing.
+
 ## 🛠️ How to Run (Coming Soon)
 Setup instructions and dependencies will be added once the modules are connected.
 
