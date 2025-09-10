@@ -1,4 +1,4 @@
-# MULTI-MODAL ATTENDANCE SYSTEM 
+# FACE RECOGNTION BASED ATTENDANCE SYSTEM 
 
 ## Team Name - Meraki
 Member 1:- Nikita Gautam (nikitg0777@gmail.com)
@@ -7,37 +7,37 @@ Member 3:- Harsh Gandhi (gandhiharsh410@gmail.com)
 Member 4:- Harshit (harshit.jobss@gmail.com)
 
 ## 🧠 Project Description
-A robust and secure **multimodal attendance system** that uses:
--  **Facial Recognition**
--  **Voice Authentication**
--  **Location Verification**
-to ensure accurate, real-time, and tamper-proof attendance — ideal for hybrid workplaces, educational institutions, and secure environments.
+A secure and automated **attendance system** that leverages **face recognition** to verify identity and mark attendance in real time.  
+The system integrates **anti-spoofing techniques** such as blink/liveness detection to prevent fraudulent attempts and ensure reliability.  
+Designed for **educational institutions, corporate workplaces, and high-security environments**, it reduces manual effort, eliminates proxy attendance, and provides an efficient solution for identity verification.  
 
-## 🚀 Tech Stack (in progress)
-- Python
-- OpenCV
-- face_recognition
-- dlib
-- Flask (REST APIs)
+## 🚀 Features  
+- **Real-Time Face Detection & Recognition**  
+  - Live webcam integration for seamless attendance.  
+  - High-accuracy matching using FaceNet embeddings.  
 
-## 📦 Modules
-- ✅ Face Detection & Recognition (in development)
-- 🔄 Voice Authentication (integration pending)
-- 🗺️ Location Check(integration pending)
+- **Automatic Attendance Logging**  
+  - Recognized faces are instantly marked in the backend with timestamp.  
 
-  ##  Work in Progress
+- **Anti-Spoofing Security**  
+  - Liveness detection and blink-based validation ensure only real users are authenticated.  
 
-- To save embeddings in database for scalability.
-- Exploring liveness detection or blink detection for anti-spoofing.
+- **Scalability**  
+  - Supports multiple users and maintains embeddings for fast recognition.  
 
-## 🛠️ How to Run (Coming Soon)
-Setup instructions and dependencies will be added once the modules are connected.
+
+## 🛠️ Tech Stack  
+- **Face Recognition**: FaceNet, `face_recognition`, dlib, OpenCV  
+- **Backend**: Python (Flask/FastAPI for APIs)  
+- **Frontend**: Web interface for attendance visualization  
+- **Database**: Postgresql   
+
+
 
 ## 📌 Project Goal
-To create a privacy-focused, secure, and accurate attendance system that reduces spoofing and enables smooth verification using multiple biometric and location inputs.
+To create a privacy-focused, secure, and accurate attendance system that reduces spoofing and enables smooth verification using Face recognition based attendance system.
 
-## 🤝 Contributions
-For now, the team is working on their assigned modules. Contribution guidelines will be added once a base version is ready.
+
 
 
 
