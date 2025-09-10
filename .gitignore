@@ -1,0 +1,29 @@
+# Node.js
+client/node_modules/
+client/build/
+client/dist/
+client/.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# FastAPI SQLite DB
+server/attendance.db
+
+# VSCode & OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs & Environment
+*.log
+.env
+
+# Byte-compiled files
+*.swp
+*.bak
+*~
